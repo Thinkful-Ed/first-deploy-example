@@ -3,7 +3,7 @@ node_js: node
 deploy:
   provider: heroku
   api_key:
-    secure: GvZMrihdQSnDFfEbLUeXRVhdDCp6dNEFiAw2pTwOV73cmvm5CIzvicmw42S2pbfEywvuoo4Vevgr4rir34z3+K2ljCroQVoJyuJZBVrwHtSip2ANnhFLBTWtn/ubU8V3HlSOIu3OLchQb4RSBOjn56xOfFkY24kw8DaN2/37NwsPmqmEKZHXyXXvD24fdTWDkcsOuVB+hw4Tgs4/kpbduw/93FvV4C7w+KiaDpcsew6djS2QuJ8tv1DYkhfSX4REfkyGWW0qeJdtfVQtT2qXP1JB9PgXbkCqqVRM0xfLCDCiPktou2hqH1fg88NxB523RNTWAruGHQknibDeAQHhi1yVESlXUn4kAMBV0r1GDwYqYG1kPsFyozmekXqrVvcMe0qe+NqRnTbYevnkZJPdx2G5/3m8biM7j4Tjq41yEAyFpUNwmByCcpRXYVSyMc8o+qfgJMSknu0R2XOvXPqEmC97mKiegXA+VX+SrePeBsSQrYpCK0SXXsW2ek19WJNNCpcJ+VTBonFis9DgI4MAhAme4M1OhkdkcaDrqg2qui7mV5T85oyMXdmlghZ7IQU6Zvl8vFhf53cuvKFH0GsqX/9KdemlPBjuJkI0hWi10R/yngYv6Cb4vKiYMTj7+msY/JQRws9jBNwYy1D2xuhQC8IVgSNrlkjFkQbJYQXY+Pc=
-  app: testing-travis
+    secure: <YOUR ENCRYPTED KEY HERE>
+  app: <YOUR APP NAME HERE>
   on:
-    repo: benjaminEwhite/testing-travis
+    repo: <YOUR REPO INFO HERE>

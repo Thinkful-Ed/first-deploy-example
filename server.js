@@ -2,10 +2,8 @@ var express = require('express');
 
 var app = express();
 
-app.get('/', function(request, response) {
-    response.send("Hello World");
-});
+app.use(express.static('public'));
 
-app.listen(process.env.PORT, process.env.IP);
+app.listen(process.env.PORT || 8080);
 
 exports.app = app;

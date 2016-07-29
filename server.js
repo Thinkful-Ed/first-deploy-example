@@ -7,3 +7,5 @@ app.get('/', function(request, response) {
 });
 
 app.listen(process.env.PORT, process.env.IP);
+
+exports.app = app;

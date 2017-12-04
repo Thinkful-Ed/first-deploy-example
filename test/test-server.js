@@ -1,23 +1,19 @@
-var chai = require('chai');
-var chaiHttp = require('chai-http');
-var server = require('../server.js');
+'use strict';
 
-var should = chai.should();
-var app = server.app;
-var storage = server.storage;
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+const app = require('../server.js');
+
+chai.should();
 
 chai.use(chaiHttp);
 
-
-describe('index page', function() {
-  it('exists', function(done) {
-    chai.request(app)
+describe('index page', function () {
+  it('should exist', function () {
+    return chai.request(app)
       .get('/')
-      .end(function(err, res) {
+      .then(function (res) {
         res.should.have.status(200);
-        res.should.be.html;
-        done();
-    });
+      });
   });
 });
-

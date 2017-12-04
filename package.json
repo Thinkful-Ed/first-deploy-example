@@ -1,18 +1,19 @@
 {
-  "name": "travis",
+  "name": "starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --exit"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
-    "express": "^4.16.2",
     "mocha": "^4.0.1"
-  },
-  "devDependencies": {}
+  }
 }
